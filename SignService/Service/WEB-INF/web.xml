@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>	
+	<servlet>
+		<servlet-name>ServiceSign</servlet-name>
+		<servlet-class>com.dpcbj.service.servlet.ServiceSign</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ServiceSign</servlet-name>
+		<url-pattern>/ServiceSign</url-pattern>
+	</servlet-mapping>
+    <context-param>
+        <param-name>ComServerIPs</param-name>
+        <param-value>219.142.189.223,219.142.189.222,219.142.189.221</param-value>
+    </context-param>	  
+  <welcome-file-list>
+    <welcome-file>main.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

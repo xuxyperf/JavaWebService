@@ -1,0 +1,93 @@
+U {
+	DISPLAY: block;
+	OVERFLOW: hidden;
+	HEIGHT: 1px
+}
+U.f1 {
+	background-color:#94B8E9;
+	BACKGROUND: #5cc;
+	MARGIN: 0px 3px
+}
+U.f2 {
+	background-color:#94B8E9;
+	BORDER-RIGHT: #94B8E9 2px solid;
+	MARGIN: 0px 1px;
+	BORDER-LEFT: #94B8E9 2px solid
+}
+U.f3 {
+	background-color:#94B8E9;
+	BORDER-RIGHT: #94B8E9 1px solid;
+	MARGIN: 0px 1px;
+	BORDER-LEFT: #94B8E9 1px solid
+}
+
+.float_top{
+	clear:both;
+	overflow:hidden;
+	background-color:#94B8E9;
+	height:29px;
+	vertical-align:bottom;
+	cursor:pointer;
+}
+
+.float_top span{
+	float:left;
+	font-size:14px;
+	font-weight:bold;
+	margin-left:15px;
+	margin-top:8px;
+	
+}
+.float_body {
+	BORDER-RIGHT: #94B8E9 3px solid;
+	BORDER-LEFT: #94B8E9 3px solid;
+	padding:10px;
+	background-color:#fff;
+}
+
+.fl_foot{
+	border-top: #94B8E9 1px solid;
+	height:20px;
+	text-align:right;
+	padding:5px 5px 0px 0px;
+}
+
+.float_top a{
+	float:right;
+	margin-top:5px;
+	margin-right:13px;
+	padding-top:3px;
+	width:18px;
+	color:red;
+	background-color:#94B8E9;
+	text-decoration:none;
+	font-weight:bold;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.parentCon{   
+background-color: #ccc;   
+width: 100%;   
+height: 100%;   
+left:0;   
+top:0;/*FF IE7*/   
+filter:alpha(opacity=50);/*IE*/   
+opacity:0.5;/*FF*/   
+z-index:1;   
+  
+position:fixed!important;/*FF IE7*/   
+position:absolute;/*IE6*/   
+  
+_top:       expression(eval(document.compatMode &&   
+            document.compatMode=='CSS1Compat') ?   
+            documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/   
+            document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);/*IE5 IE5.5*/   
+  
+}
+
+.floatTable td{padding:0px 0px 0px 5px;height:20px;}
+.floatTable td input{width:150px;background-color:#fff;}
+.floatTable .read{background-color:#ebebeb}
+.floatTable td select{width:150px;padding-left:0px;}
+input.file{width:200px;}

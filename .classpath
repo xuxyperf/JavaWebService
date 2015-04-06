@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="SignService/src"/>
+	<classpathentry kind="lib" path="SignService/Service/WEB-INF/lib/jacob.jar"/>
+	<classpathentry kind="lib" path="SignService/Service/WEB-INF/lib/jintegra.jar"/>
+	<classpathentry kind="lib" path="SignService/Service/WEB-INF/lib/JIT-VSTK-JDK14-2.0.20-SNAPSHOT.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="SignService/work"/>
+</classpath>

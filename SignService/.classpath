@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="E:/Java/apache-tomcat-6.0.30/lib/servlet-api.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.6.0_39"/>
+	<classpathentry kind="lib" path="Service/WEB-INF/lib/jacob.jar"/>
+	<classpathentry kind="lib" path="Service/WEB-INF/lib/JIT-VSTK-JDK14-2.0.20-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="G:/bea/wlserver_10.0/server/lib/weblogic.jar"/>
+	<classpathentry kind="output" path="Service/WEB-INF/classes"/>
+	<referencedentry kind="lib" path="G:/bea/wlserver_10.0/server/lib/jcom.jar" sourcepath="G:/bea/wlserver_10.0/server/lib/weblogic.jar"/>
+</classpath>

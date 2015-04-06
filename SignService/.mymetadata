@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="SignService"
+  id="myeclipse.1365071531020"
+  context-root="/SignService"
+  j2ee-spec="5.0"
+  archive="SignService.war">
+  <attributes>
+    <attribute name="webrootdir" value="service" />
+  </attributes>
+</project-module>
+

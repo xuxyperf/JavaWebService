@@ -1,0 +1,59 @@
+body{font-family:"宋体", Arial, Tahoma; color:#000; font-size:12px;margin:0px; padding:0px;}
+
+a{ color:#0373cd; text-decoration:none;}
+
+.queryBody{
+	padding:0px 0px 0px 30px;
+}
+
+.queryTitle{
+	padding:5px 0px 0px 0px;
+	color:#000000;
+	font-size:14px;
+	font-weight:bold;
+	border-bottom:2px solid #C8CFDA;
+}
+
+.queryCondition{
+	padding:15px 0px 0px 0px;
+	font-size:12px;
+}
+
+.comBtn {height:23px; padding:3px 5px; font-size:12px;}
+
+.queryButton{float:right;padding:0px 15px 0px 0px;}
+.queryButton input{padding:0px 0px 0px 5px;}
+
+/*查询条件表格*/
+.queryTable td{padding:4px 4px;font-size:12px;}
+.queryTable td .queryText{width:188px;background-color:#ffffff;}
+.queryTable td .select{height:20px;width:188px}
+
+/*结果表格*/
+.resultTable{border-collapse:collapse;width:100%;}
+.resultTable td{border:#ccc solid 1px;padding-left:5px;font-size:12px;height:25px;}
+.resultTable td.last{border-right:none;}
+.resultTable td.headTd{height:20px;}
+.resultTable .headTr{background-color: #94B8E9;color:#ffffff;}
+.resultTable tr.doubleRow{background-color: #ebebeb;}
+.resultTable tr.selected{background-color: #6699CC;}
+.pageDIV{float:right;padding:0px 10px 0px 0px;}
+.pageDIV a{text-decoration:none;color:black;font-size:13px;}
+.pageDIV a:hover{color:orange;}
+.pageDIV button{padding:0px 10px 0px 0px;}
+.trunPage{background:#eeeeee;font-size:12px;width:25px;}
+thead tr{background-color:#94B8E9;color:#fff;height:20px;}
+td.midTD{text-align:center;}
+
+
+/*帮助信息*/
+.helpContent{padding:20px 0px 0px 0px;}
+
+/*显示信息*/
+.infoContent{padding:15px 0px 0px 0px;font-family:Arial, Tahoma; color:#000;font-size:12px;}
+.infoTable {width:100%;}
+.infoTable td {height:18px;padding:5px 0px 0px 5px;font-size:12px;}
+.infoTable td.infoCap{width:140px;text-align:right;background-color:#94B1F0;}
+.infoTable td.infoVal{width:140px;}
+.infoTable td.infoBig{width:420px;}
+
